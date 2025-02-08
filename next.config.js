@@ -6,7 +6,7 @@ const nextConfig = {
   output: "export",
 
   // If deploying to a subpath (e.g., https://username.github.io/repo-name), set basePath
-  basePath: "/JuanMartinezPortfolio", // Replace 'your-repo-name' with your actual GitHub repository name
+  basePath: "/Portfolio", // Replace 'your-repo-name' with your actual GitHub repository name
 
   // Ensure paths have a trailing slash (important for GitHub Pages)
   trailingSlash: true,
