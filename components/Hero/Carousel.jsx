@@ -59,7 +59,12 @@ const InfiniteScroll = () => {
     <div className="flex flex-wrap gap-8 justify-center">
       {icons.map((icon, index) => (
         <div key={index} className=" flex-shrink-0">
-          <Image src={`${basePath} ${icon.src}`} alt={icon.alt} width={60} height={60} />
+          <Image
+            src={`${basePath}${icon.src}`}
+            alt={icon.alt}
+            width={60}
+            height={60}
+          />
         </div>
       ))}
     </div>
