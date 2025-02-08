@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 const InfiniteScroll = () => {
-  const basePath = process.env.NODE_ENV === "production" ? "/Portfolio" : "";
+  const basePath = "/Portfolio";
   const icons = [
     {
       name: "HTML",
