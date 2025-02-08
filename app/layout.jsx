@@ -1,6 +1,6 @@
 import "@styles/globals.css";
 import Navbar from "@components/Navbar";
-import Mouseover from "@components/mouseover";
+import Mouseover from "@components/Mouseover";
 import Footer from "@components/Footer";
 
 export const metadata = {
