@@ -3,6 +3,7 @@ import Image from "next/image";
 import Card from "../components/Card";
 
 const Main = () => {
+  const basePath = "/Portfolio";
   return (
     <div id="About">
       <div className="flex flex-col justify-start items-center  px-14 mb-24 mx-14 rounded-xl bg-bg2">
@@ -20,7 +21,7 @@ const Main = () => {
           </p>
 
           <Image
-            src="/assets/user.svg"
+            src={`${basePath}/assets/user.svg`}
             alt="user icon"
             width={400}
             height={400}
@@ -37,21 +38,21 @@ const Main = () => {
         </h1>
         <div className="mb-24 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
           <Card
-            image={"/assets/testprofile.jpg"}
+            image={`${basePath}/assets/testprofile.jpg`}
             title={"Portfolio"}
             desc={
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             }
           />
           <Card
-            image={"/assets/testprofile.jpg"}
+            image={`${basePath}/assets/testprofile.jpg`}
             title={"Portfolio"}
             desc={
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             }
           />
           <Card
-            image={"/assets/testprofile.jpg"}
+            image={`${basePath}/assets/testprofile.jpg`}
             title={"Portfolio"}
             desc={
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
@@ -66,7 +67,7 @@ const Main = () => {
       >
         <div className="my-10 shrink-0">
           <Image
-            src="/assets/phone.svg"
+            src={`${basePath}/assets/phone.svg`}
             alt="phone icon"
             width={375}
             height={375}
@@ -81,7 +82,7 @@ const Main = () => {
           </h1>
           <button className="flex gap-2 justify-center items-center bg-Secondary text-background rounded-lg px-4 py-2 transition transform hover:-translate-y-1 active:-translate-y-0">
             <Image
-              src="/assets/email.svg"
+              src={`${basePath}/assets/email.svg`}
               alt="call icon"
               width={25}
               height={25}
@@ -93,7 +94,7 @@ const Main = () => {
           </button>
           <button className="flex gap-2 justify-center items-center bg-Accent text-background rounded-lg px-4 py-2 m-2 mb-10 transition transform hover:-translate-y-1 active:-translate-y-0">
             <Image
-              src="/assets/call.svg"
+              src={`${basePath}/assets/call.svg`}
               alt="call icon"
               width={25}
               height={25}
