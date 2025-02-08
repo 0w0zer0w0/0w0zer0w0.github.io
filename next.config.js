@@ -2,16 +2,14 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
+  // Static export option
   output: "export",
 
-  // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
-  // trailingSlash: true,
+  // If deploying to a subpath (e.g., https://username.github.io/repo-name), set basePath
+  basePath: "/JuanMartinezPortfolio", // Replace 'your-repo-name' with your actual GitHub repository name
 
-  // Optional: Prevent automatic `/me` -> `/me/`, instead preserve `href`
-  // skipTrailingSlashRedirect: true,
-
-  // Optional: Change the output directory `out` -> `dist`
-  // distDir: 'dist',
+  // Ensure paths have a trailing slash (important for GitHub Pages)
+  trailingSlash: true,
 };
 
 module.exports = nextConfig;
