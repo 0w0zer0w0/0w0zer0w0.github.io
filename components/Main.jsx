@@ -20,7 +20,7 @@ const Main = () => {
           </p>
 
           <Image
-            src="/assets/user.svg"
+            src="/JuanMartinezPortfolio/assets/user.svg"
             alt="profile icon"
             width={400}
             height={400}
