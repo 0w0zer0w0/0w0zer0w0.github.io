@@ -5,11 +5,15 @@ const nextConfig = {
   // Static export option
   output: "export",
 
-  // If deploying to a subpath (e.g., https://username.github.io/repo-name), set basePath
-  basePath: "/Portfolio", // Replace 'your-repo-name' with your actual GitHub repository name
+  // Conditionally set basePath depending on the environment
+  basePath: process.env.NODE_ENV === "production" ? "/Portfolio" : "",
 
   // Ensure paths have a trailing slash (important for GitHub Pages)
   trailingSlash: true,
+  // Disable Image Optimization for static export
+  images: {
+    unoptimized: true,
+  },
 };
 
 module.exports = nextConfig;

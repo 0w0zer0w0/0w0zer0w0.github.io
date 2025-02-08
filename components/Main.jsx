@@ -20,8 +20,8 @@ const Main = () => {
           </p>
 
           <Image
-            src="/JuanMartinezPortfolio/assets/user.svg"
-            alt="profile icon"
+            src="/assets/user.svg"
+            alt="user icon"
             width={400}
             height={400}
           />
@@ -67,7 +67,7 @@ const Main = () => {
         <div className="my-10 shrink-0">
           <Image
             src="/assets/phone.svg"
-            alt="profile icon"
+            alt="phone icon"
             width={375}
             height={375}
           />
@@ -82,7 +82,7 @@ const Main = () => {
           <button className="flex gap-2 justify-center items-center bg-Secondary text-background rounded-lg px-4 py-2 transition transform hover:-translate-y-1 active:-translate-y-0">
             <Image
               src="/assets/email.svg"
-              alt="profile icon"
+              alt="call icon"
               width={25}
               height={25}
             />
@@ -94,7 +94,7 @@ const Main = () => {
           <button className="flex gap-2 justify-center items-center bg-Accent text-background rounded-lg px-4 py-2 m-2 mb-10 transition transform hover:-translate-y-1 active:-translate-y-0">
             <Image
               src="/assets/call.svg"
-              alt="profile icon"
+              alt="call icon"
               width={25}
               height={25}
             />
