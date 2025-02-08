@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 const Card = ({ image, title, desc }) => {
+  const basePath = "/Portfolio";
   return (
     <div className="bg-card max-w-[400px]  rounded-xl flex flex-col overflow-hidden card_border">
       <div>
@@ -15,7 +16,7 @@ const Card = ({ image, title, desc }) => {
         </button>
         <button className="bg-Primary text-background rounded-lg px-4 py-2 m-5 ml-0 transition transform hover:-translate-y-1 active:-translate-y-0">
           <Image
-            src="/assets/github-mark.svg"
+            src={`${basePath}/assets/github-mark.svg`}
             alt="profile icon"
             width={25}
             height={25}
