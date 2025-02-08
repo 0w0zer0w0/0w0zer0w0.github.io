@@ -11,9 +11,7 @@ const nextConfig = {
   // Ensure paths have a trailing slash (important for GitHub Pages)
   trailingSlash: true,
   // Disable Image Optimization for static export
-  images: {
-    unoptimized: true,
-  },
+  images: {},
 };
 
 module.exports = nextConfig;
